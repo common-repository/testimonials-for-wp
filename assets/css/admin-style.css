@@ -1,0 +1,59 @@
+.testimonials-for-wp-metafield {
+	margin: 1em 0;
+}
+.testimonials-for-wp-metafield img {
+	max-width: 100%;
+	height: auto;
+}
+.testimonials-for-wp-metafield label {
+	font-weight: bold;
+	margin-bottom: 0.25em;
+	display: block;
+}
+.testimonials-for-wp-metafield-checkbox label {
+	display: inline;
+}
+.testimonials-for-wp-outer-wrap {
+	margin-right: 300px;
+	padding: 0;
+}
+.testimonials-for-wp-inner-wrap {
+	position: relative;
+	width: 100%;
+	min-width: 463px;
+	float: left;
+}
+.testimonials-for-wp-banners {
+	float: right;
+	margin-right: -300px;
+	width: 280px;
+}
+.testimonials-for-wp-banners img {
+	max-width: 100%;
+}
+.testimonials-for-wp-banner {
+	margin-bottom: 1.5em;
+}
+@media only screen and (max-width: 850px) {
+	.testimonials-for-wp-outer-wrap {
+		margin-right: 0;
+	}
+	.testimonials-for-wp-inner-wrap {
+		position: relative;
+		width: 100%;
+		min-width: 0;
+		float: none;
+	}
+	.testimonials-for-wp-banners {
+		float: none;
+		margin-right: 0;
+		width: 100%;
+	}
+	.testimonials-for-wp-banner {
+		float: left;
+		margin-right: 20px;
+	}
+}
+.is-dbpro .hide-dbpro {
+	display: none;
+}

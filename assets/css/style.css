@@ -1,0 +1,161 @@
+.testimonials-for-wp-grid.testimonials-for-wp-wrapper {
+	margin-bottom: 32px;
+}
+.testimonials-for-wp-grid.testimonials-for-wp-wrapper {
+	display: block;
+	display: grid;
+	grid-gap: 20px;
+	grid-gap: 2%;
+	grid-template-columns: repeat(2, 49%);
+}
+.testimonials-for-wp-grid.testimonials-for-wp-cols-1.testimonials-for-wp-wrapper {
+	display: block;
+}
+.testimonials-for-wp-grid.testimonials-for-wp-cols-2.testimonials-for-wp-wrapper {
+	grid-template-columns: repeat(2, 49%);
+}
+.testimonials-for-wp-grid.testimonials-for-wp-cols-3.testimonials-for-wp-wrapper {
+	grid-template-columns: repeat(3, 32%);
+}
+.testimonials-for-wp-grid.testimonials-for-wp-cols-4.testimonials-for-wp-wrapper {
+	grid-template-columns: repeat(4, 23.5%);
+}
+/* 600px */
+@media screen and (max-width: 37.5em) {
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-1.testimonials-for-wp-wrapper,
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-2.testimonials-for-wp-wrapper,
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-3.testimonials-for-wp-wrapper,
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-4.testimonials-for-wp-wrapper {
+		display: block;
+	}
+}
+/* 768px */
+@media screen and (max-width: 48em) {
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-1.testimonials-for-wp-wrapper,
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-2.testimonials-for-wp-wrapper,
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-3.testimonials-for-wp-wrapper,
+	.testimonials-for-wp-grid.testimonials-for-wp-cols-4.testimonials-for-wp-wrapper {
+		grid-template-columns: repeat(2, 49%);
+	}
+}
+.wp-testimonial {
+	/* display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column; */
+	margin-bottom: 32px;
+}
+.testimonials-for-wp-cards .wp-testimonial {
+	padding-top: 48px;
+}
+.wp-testimonial-inner {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	background-color: #f9f9f9;
+	border: 1px solid #eee;
+	box-shadow: 0 0 5px 3px rgba(33,33,33,0.025);
+	height: 100%;
+	position: relative;
+	padding: 32px;
+}
+.testimonials-for-wp-cards .wp-testimonial-inner {
+	padding: 64px 32px 32px;
+}
+.testimonials-for-wp-quotes .wp-testimonial-inner {
+	background-color: transparent;
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+}
+.testimonials-for-wp-cards .testimonial-avatar {
+	position: absolute;
+	top: -48px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.testimonial-avatar img {
+    border-radius: 50%;
+    vertical-align: bottom;
+    margin: 0;
+    width: 96px;
+	max-width: 100%;
+	height: auto;
+    border: 1px solid #eee;
+    padding: 1px;
+}
+.testimonials-for-wp-simple .testimonial-avatar img {
+	width: 48px;
+}
+.testimonials-for-wp-quotes .testimonial-avatar img {
+	width: 48px;
+}
+.testimonial-content {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	margin-bottom: 16px;
+}
+.testimonials-for-wp-quotes .testimonial-content {
+	background-color: #f9f9f9;
+	padding: 32px;
+	position: relative;
+	margin-bottom: 32px;
+}
+.testimonials-for-wp-quotes .testimonial-content:after {
+    position: absolute;
+    left: 24px;
+    bottom: -24px;
+    display: block;
+    width: 0;
+    content: "";
+    border-width: 30px 30px 0 0;
+    border-style: solid;
+    border-color: #f9f9f9 transparent;
+}
+.testimonial-meta .title {
+	font-weight: bold;
+	display: block;
+}
+.testimonial-meta .position,
+.testimonial-meta .date {
+	display: block;
+	font-size: 90%;
+	opacity: 0.5;
+}
+.testimonial-meta .date {
+	font-style: italic;
+}
+.testimonials-for-wp-simple .testimonial-avatar,
+.testimonials-for-wp-quotes .testimonial-avatar {
+    margin-right: 8px;
+}
+.testimonials-for-wp-simple .testimonial-meta,
+.testimonials-for-wp-quotes .testimonial-meta {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	line-height: 1.25;
+}
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-2 .grid-sizer,
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-2 .wp-testimonial {
+	width: 49%;
+}
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-3 .grid-sizer,
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-3 .wp-testimonial {
+	width: 33.33333%;
+}
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-4 .grid-sizer,
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-4 .wp-testimonial {
+	width: 23.5%;
+}
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-2 .wp-testimonial,
+.testimonials-for-wp-masonry.testimonials-for-wp-cols-3 .wp-testimonial {
+	padding-right: 2%;
+}
